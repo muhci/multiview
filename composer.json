@@ -1,0 +1,35 @@
+{
+    "name": "muhci/multiview",
+    "description": "Multiview Package for Laravel",
+    "homepage": "https://github.com/muhci/multiview",
+    "license": "MIT",
+    "keywords": [
+        "muhci",
+        "multiview",
+        "laravel",
+        "mobile"
+    ],
+    "authors": [
+        {
+            "name": "mehmet muhci",
+            "email": "mehmetmuhci@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "illuminate/view": "^5.7",
+        "jenssegers/agent": "^2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Muhci\\Multiview\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Muhci\\Multiview\\ViewServiceProvider"
+            ]
+        }
+    },
+}
