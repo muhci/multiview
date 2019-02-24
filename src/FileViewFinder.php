@@ -13,7 +13,7 @@ class FileViewFinder extends BaseFileViewFinder
         $mobile_detect = new Mobile_Detect;
 
         // if the device is mobile
-        if ($mobile_detect->isMobile() && !$mobile_detect->isTablet()) {
+        if ($mobile_detect->isMobile()) {
             array_unshift($paths, resource_path('views/mobile'));
         }
 

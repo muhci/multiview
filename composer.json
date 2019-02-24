@@ -17,8 +17,10 @@
     ],
     "require": {
         "php": "^7.0",
-        "illuminate/view": "^5.7",
         "jenssegers/agent": "^2.6"
+    },
+    "require-dev": {
+        "illuminate/view": "^5.7"
     },
     "autoload": {
         "psr-4": {
